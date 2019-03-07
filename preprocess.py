@@ -6,7 +6,6 @@ These methods are used to clear the sentences from the input file and do preproc
 """
 
 
-
 """
 Convert the sentence in lowercase
 
