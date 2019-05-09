@@ -4,11 +4,10 @@ Over 100 million people visit Quora every month, so it's no surprise that many p
 
 Quora released on 24 January 2017, a dataset giving anyone the opportunity to train and test models of semantic equivalence, based on actual Quora data, to see how diverse approaches fare on this problem.
 
-The dataset consists of over 400,000 lines of potential question duplicate pairs. Each line contains IDs for each question in the pair, the full text for each question, and a binary value that indicates whether the line truly contains a duplicate pair. Here are a few sample lines of the dataset:
-
-
+The dataset consists of over 400,000 lines of potential question duplicate pairs. Each line contains IDs for each question in the pair, the full text for each question, and a binary value that indicates whether the line truly contains a duplicate pair. Here are a few sample lines of the dataset:  
+<br/>
 ![](https://qph.fs.quoracdn.net/main-qimg-ea50c7a005eb7750af0b53b07c8caa60)
-
+<br/>
 
 ## To get the dataset just follow the link : [Quora-Questions-Pairs-Dataset](https://www.kaggle.com/quora/question-pairs-dataset)
 
@@ -59,11 +58,14 @@ The dataset consists of over 400,000 lines of potential question duplicate pairs
 
 ### Part C
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+##### Two diffrent cases examined to rate our model:
+1)When the returned question has the variable is_dublicate = 1.  
+2)When the returned question is the pair of the input question.
+
+| Case    | Recall       | Precision  |
+| ------- | :----------: | :--------: |
+| 1       | 42.65%       | 78.20%      |
+| 2       | 78.00%       | 53.70%     |
 
 # Built With 
 * [Python](https://www.python.org/) - Programming language
