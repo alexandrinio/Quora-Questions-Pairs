@@ -27,12 +27,9 @@ The dataset consists of over 400,000 lines of potential question duplicate pairs
 
 ### Part A
 
-| #Question-Pairs        | Accuracy    |
-|:----------------------:|:-----------:|
-| 10.000                 | 50%         |
-| 50.000                 | 60%         |
-| 100.000                | 70%         |
-
+##### After 4 epochs:
+Binary-cross-entropy-loss: **0.49**  
+Accuracy: **78.2%**
 
 ### Part B
 
